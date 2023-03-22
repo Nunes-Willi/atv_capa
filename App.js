@@ -24,7 +24,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text style={{ fontSize: 25, fontWeight: 'bold' }}> Img do CAPETA!!</Text>
+      <Text style={{ fontSize: 25, fontWeight: 'bold' }}> Imagen da Capa do Livro!!</Text>
       <View style={styles.conteudo}>
         { livros.map(livro => <Card livro={livro} />) }
       </View>
